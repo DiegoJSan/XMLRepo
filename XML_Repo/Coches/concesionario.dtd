@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ELEMENT listadoCoches (vehiculo)*>
+
+<!ELEMENT vehiculo (codigoCoche|marca|modelo|matricula|potencia|plazas|numeroPuertas)*>
+
+<!ELEMENT codigoCoche (#PCDATA)>
+
+<!ELEMENT marca (#PCDATA)>
+
+<!ELEMENT modelo (#PCDATA)>
+
+<!ELEMENT matricula (#PCDATA)>
+
+<!ELEMENT potencia (#PCDATA)>
+
+<!ELEMENT plazas (#PCDATA)>
+
+<!ELEMENT numeroPuertas (#PCDATA)>

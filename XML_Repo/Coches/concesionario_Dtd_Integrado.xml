@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?> <!--Instrucciones de procesamiento-->
+<!DOCTYPE listadoCoches
+[
+<!ELEMENT listadoCoches (vehiculo)*>
+<!ELEMENT vehiculo (codigoCoche|marca|modelo|matricula|potencia|plazas|numeroPuertas)*>
+<!ELEMENT codigoCoche (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT potencia (#PCDATA)>
+<!ELEMENT plazas (#PCDATA)>
+<!ELEMENT numeroPuertas (#PCDATA)>
+
+]>
+<listadoCoches>
+    <vehiculo>
+        <codigoCoche>1</codigoCoche>
+        <marca>Ford</marca>
+        <modelo>Escort</modelo>
+        <matricula>4589CTD</matricula>
+        <potencia>90</potencia>
+        <plazas>5</plazas>
+        <numeroPuertas>5</numeroPuertas>
+    </vehiculo>
+    <vehiculo>
+        <codigoCoche>2</codigoCoche>
+        <marca>Citroen</marca>
+        <modelo>Berlingo</modelo>
+        <matricula>96523HTV</matricula>
+        <potencia>75</potencia>
+        <plazas>5</plazas>
+        <numeroPuertas>4</numeroPuertas>
+    </vehiculo>
+    <vehiculo>
+        <codigoCoche>3</codigoCoche>
+        <marca>Mercedes</marca>
+        <modelo>ClaseA</modelo>
+        <matricula>0973KLD</matricula>
+        <potencia>150</potencia>
+        <plazas>5</plazas>
+        <numeroPuertas>5</numeroPuertas>
+    </vehiculo>
+</listadoCoches>
+    

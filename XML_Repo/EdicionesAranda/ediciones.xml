@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?> <!--Comentarios-->
+<!DOCTYPE BDedicionesAranda SYSTEM "BDediciones.dtd">
+<edicionesAranda>
+    <cabecera>
+        <titulo>Ediciones Aranda</titulo>
+        <contenido>Informe regional de ventas</contenido>
+        <descripcion>Descripción: Informe de ventas para regiones Norte, Centro y Sur</descripcion>
+        <fecha>Fecha: 30/12/2009</fecha>
+    </cabecera>
+    <tabla>
+        <region>Norte
+            <trimestre>1</trimestre>
+                <librosVendidos>24000</librosVendidos>
+            <trimestre>2</trimestre>
+                <librosVendidos>38600</librosVendidos>
+            <trimestre>3</trimestre>
+                <librosVendidos></librosVendidos>
+            <trimestre>4</trimestre>
+                <librosVendidos></librosVendidos>
+        </region>
+        <region>Centro
+            <trimestre>1</trimestre>
+                <librosVendidos></librosVendidos>
+            <trimestre>2</trimestre>
+                <librosVendidos>16080</librosVendidos>
+            <trimestre>3</trimestre>
+                <librosVendidos>25000</librosVendidos>
+            <trimestre>4</trimestre>
+                <librosVendidos>29000</librosVendidos>
+        </region>
+        <region>
+            <sur>Sur
+                <trimestre>1</trimestre>
+                    <librosVendidos>27000</librosVendidos>
+                <trimestre>2</trimestre>
+                    <librosVendidos>31400</librosVendidos>
+                <trimestre>3</trimestre>
+                    <librosVendidos>40100</librosVendidos>
+                <trimestre>4</trimestre>
+                    <librosVendidos>30000</librosVendidos>
+            </sur>
+        </region>
+        <triMestre>Trimestre</triMestre>
+        <libros_vendidos>Libros Vendidos</libros_vendidos>
+    </tabla>

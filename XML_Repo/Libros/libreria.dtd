@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ELEMENT listaLibros (libros)*>
+
+<!ELEMENT libros (autores|titulo|editorial|fecPublicacion|ISBN)*>
+
+<!ELEMENT autores (autor)*>
+
+<!ELEMENT autor (nombre|apellido1|apellido2)*>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT apellido1 (#PCDATA)>
+
+<!ELEMENT apellido2 (#PCDATA)>
+
+<!ELEMENT titulo (#PCDATA)>
+
+<!ELEMENT editorial (#PCDATA)>
+
+<!ELEMENT fecPublicacion (#PCDATA)>
+
+<!ELEMENT ISBN (#PCDATA)>

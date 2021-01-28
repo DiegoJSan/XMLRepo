@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?> <!--Instrucciones de procesamiento-->
+<!DOCTYPE listaLibros SYSTEM "libreria.dtd">
+<listaLibros>
+    <libros>
+        <autores>
+            <autor>
+                <nombre>Alicia</nombre>
+                <apellido1>Jiménez</apellido1>
+                <apellido2>Bartlett</apellido2>
+            </autor>
+            <autor>
+                <nombre>Ana</nombre>
+                <apellido1>Pérez</apellido1>
+                <apellido2>Sánchez</apellido2>
+            </autor>
+        </autores>   
+        <titulo>Sin muertos</titulo>
+        <editorial>Economia</editorial>
+        <fecPublicacion>20 Abril 2020</fecPublicacion>
+        <ISBN>1-232-354-15</ISBN>         
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <nombre>Amélie</nombre>
+                <apellido1>Nothob</apellido1>
+                <apellido2>Berth</apellido2>
+            </autor>
+            <autor>
+                <nombre></nombre>
+                <apellido1></apellido1>
+                <apellido2></apellido2>
+            </autor>
+        </autores>   
+        <titulo>Los nombres epicenos</titulo>
+        <editorial>Anagrama</editorial>
+        <fecPublicacion>26 mayo 2019</fecPublicacion>
+        <ISBN>2-486-426-12</ISBN>         
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <nombre>Agustina</nombre>
+                <apellido1>Guerrero</apellido1>
+                <apellido2>Beltran</apellido2>
+            </autor>
+            <autor>
+                <nombre>Emma</nombre>
+                <apellido1>González</apellido1>
+                <apellido2>Arrimadas</apellido2>
+            </autor>
+        </autores>   
+        <titulo>El Viaje</titulo>
+        <editorial>Lumen</editorial>
+        <fecPublicacion>28 Mayo 2020</fecPublicacion>
+        <ISBN>5-789-265-14</ISBN>         
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <nombre>Joël</nombre>
+                <apellido1>Dicker</apellido1>
+                <apellido2>James</apellido2>
+            </autor>
+            <autor>
+                <nombre></nombre>
+                <apellido1></apellido1>
+                <apellido2></apellido2>
+            </autor>
+        </autores>   
+        <titulo>El enigma de la habitación 662</titulo>
+        <editorial>Alfaguarada</editorial>
+        <fecPublicacion>3 junio 2020</fecPublicacion>
+        <ISBN>6-168-943-56</ISBN>         
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <nombre>Juan</nombre>
+                <apellido1>Marsé</apellido1>
+                <apellido2>Payán</apellido2>
+            </autor>
+            <autor>
+                <nombre>Francisco</nombre>
+                <apellido1>DeJon</apellido1>
+                <apellido2>Laponde</apellido2>
+            </autor>
+        </autores>   
+        <titulo>Viaje al Sur</titulo>
+        <editorial>Lumen</editorial>
+        <fecPublicacion>16 marzo 2020</fecPublicacion>
+        <ISBN>6-482-567-23</ISBN>         
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <nombre>Walter</nombre>
+                <apellido1>Tevis</apellido1>
+                <apellido2>Dale</apellido2>
+            </autor>
+            <autor>
+                <nombre></nombre>
+                <apellido1></apellido1>
+                <apellido2></apellido2>
+            </autor>
+        </autores>   
+        <titulo>Gambito de dama</titulo>
+        <editorial>Alfaguara</editorial>
+        <fecPublicacion>21 enero 2020</fecPublicacion>
+        <ISBN>3-5621-326-17</ISBN>         
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <nombre>Luis</nombre>
+                <apellido1>Alberto</apellido1>
+                <apellido2>de Cuenca</apellido2>
+            </autor>
+            <autor>
+                <nombre></nombre>
+                <apellido1></apellido1>
+                <apellido2></apellido2>
+            </autor>
+        </autores>   
+        <titulo>El Hacha y la Rosa</titulo>
+        <editorial>Reino de Cordeila</editorial>
+        <fecPublicacion>Diciembre 2020</fecPublicacion>
+        <ISBN>7-913-682-68</ISBN>         
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <nombre>Enrique</nombre>
+                <apellido1>Jardiel</apellido1>
+                <apellido2>Poncela</apellido2>
+            </autor>
+            <autor>
+                <nombre>Alberto</nombre>
+                <apellido1>Estrada</apellido1>
+                <apellido2>García</apellido2>
+            </autor>
+        </autores>   
+        <titulo>El Hada Curiosidad</titulo>
+        <editorial>Renacimieto</editorial>
+        <fecPublicacion>Diciembre 2020</fecPublicacion>
+        <ISBN>9-724-632-84</ISBN>         
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <nombre>José </nombre>
+                <apellido1>Luis</apellido1>
+                <apellido2>Garci</apellido2>
+            </autor>
+            <autor>
+                <nombre></nombre>
+                <apellido1></apellido1>
+                <apellido2></apellido2>
+            </autor>
+        </autores>   
+        <titulo>Peliculas malas e infravaloradas</titulo>
+        <editorial>Notorius</editorial>
+        <fecPublicacion>Diciembre</fecPublicacion>
+        <ISBN>8-265-945-41</ISBN>         
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <nombre>Pablo</nombre>
+                <apellido1>Sebastiá</apellido1>
+                <apellido2>Tirado</apellido2>
+            </autor>
+            <autor>
+                <nombre>Florencio</nombre>
+                <apellido1>Del Corral</apellido1>
+                <apellido2>Millán</apellido2>
+            </autor>
+        </autores>   
+        <titulo>La Tetera de Russell</titulo>
+        <editorial>Reino de Cordelia</editorial>
+        <fecPublicacion>Diciembre 2020</fecPublicacion>
+        <ISBN>1-485-963-58</ISBN>         
+    </libros>
+
+</listaLibros>
