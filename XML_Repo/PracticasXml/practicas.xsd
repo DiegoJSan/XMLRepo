@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema" 
+version = "0.1" xml:lang = "es">
+<xs:element name= "practicas">
+    <xs:complexType>
+        <xs:secuence>
+            <xs:element name= "alumno" maxOccurs= "unbounded">
+                <xs:complexType>
+                    <xs:secuence>
+                        <xs:element name= "nif" type= "xs:integer"/>
+                        <xs:element name= "resultado" type= "tipoResultado"/>
+                        <xs:element name= "observaciones" type= "xs:string"/>
+                            <xs:complexType mixed = "true">
+                                <xs:secuence>
+                                    <xs:element name= "anhos" type= "xs:integer"/>
+                                    <xs:element name= "poblacion" type= "xs:string"/>
+                                </xs:secuence>
+                            </xs:complexType>
+                        <xs:element name= "ip">
+            </xs:element>
+        </xs:secuence>
+    </xs:complexType>
+</xs:element>
+
+<xs:element>
