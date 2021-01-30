@@ -7,7 +7,7 @@ version = "0.1" xml:lang = "es">
             <xs:element name= "alumno" maxOccurs= "unbounded">
                 <xs:complexType>
                     <xs:secuence>
-                        <xs:element name= "nif" type= "xs:integer"/>
+                        <xs:element name= "nif" type= "numerosLetra"/>
                         <xs:element name= "resultado" type= "tipoResultado"/>
                         <xs:element name= "observaciones" type= "xs:string"/>
                             <xs:complexType mixed = "true">
@@ -16,10 +16,37 @@ version = "0.1" xml:lang = "es">
                                     <xs:element name= "poblacion" type= "xs:string"/>
                                 </xs:secuence>
                             </xs:complexType>
-                        <xs:element name= "ip">
-            </xs:element>
+                        <xs:element name= "direccion">
+                            <complexType>
+                                <xs:choice>
+                                    <xs:element name= "IP" type= "xs:string"/>
+                                    <xs:element name= "MAC" type= "xs:string"/>
+                                </xs:choice>
+                            </complexType>
+                        </xs:element>
+                    </xs:secuence>
+                </xs:complexType>
+            </xs:element>    
         </xs:secuence>
     </xs:complexType>
 </xs:element>
 
-<xs:element>
+<xs:element name="numerosLetra">
+   <xs:simpleType>
+      <xs:restriction base="xs:string">
+         <xs:pattern value="[0-9 A_Z]*"/>
+         <xs:length value="9"/>
+      </xs:restriction>
+   </xs:simpleType>
+</xs:element>
+
+<xs:element name="tipoResultado">
+   <xs:simpleType>
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="Apto"/>
+         <xs:enumeration value="No Apto"/>
+      </xs:restriction>
+   </xs:simpleType>
+</xs:element>
+
+</xs:schema>
