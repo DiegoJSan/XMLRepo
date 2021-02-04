@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http:/www.w3.org/2001/XMLSchema"
+     version="0.1" xml:lang="es">
+    <xs:element name= "clientes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name = "sede" maxOccurs= "ounbouded">
+                    <xs:attribute name="codigo" type="xs:string"/>
+                    <xs:complexType>
+                    </xs:complexType>
+                <xs:element>
+            <xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

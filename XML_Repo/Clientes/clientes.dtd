@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT clientes (sede)*>
+<!ELEMENT sede (direccion | empleado | fecha | descripcion | cliente)+>
+<!ELEMENT direccion (#PCDATA)+>
+<!ELEMENT empleado (#PCDATA)>
+<!ELEMENT fecha (#CDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+    <!ATTLIST descripcion Solvente CDATA #IMPLIED>
+    <!ATTLIST descripcion Insolvente CDATA #IMPLIED>
+<!ELEMENT cliente (#PCDATA)>
+<!ELEMENT cliente (numeroVivienda | coste | resumen | plazo)*>
+<!ELEMENT numeroVivienda (#PCDATA)>
+<!ELEMENT coste (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT plazo ANY>
