@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE clientes SYSTEM "cliente.dtd">
+<!DOCTYPE clientes SYSTEM "clientes.dtd">
 <clientes>
-    <sede codigo= "A1234567">
+    <sede codigoSede= "A1234567">
+        <direccion>Sevilla</direccion>
         <direccion>Sevilla</direccion>
         <empleado>Francisco</empleado>
         <fecha>22/11/2020</fecha>
         <descripcion>Casa adosada</descripcion>
-        <cliente codigo= "ABC-123">
+        <cliente codigoCliente= "ABC-123">
             <numeroVivienda>1</numeroVivienda>
             <coste>132674.64</coste>
             <resumen>Solvente</resumen>

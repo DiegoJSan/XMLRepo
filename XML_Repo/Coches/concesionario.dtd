@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
-<!ELEMENT listadoCoches (vehiculo)*>
+<!ELEMENT listadoCoches (vehiculo*)>
 
-<!ELEMENT vehiculo (codigoCoche|marca|modelo|matricula|potencia|plazas|numeroPuertas)*>
+<!ELEMENT vehiculo (codigoCoche,marca,modelo,matricula,potencia,plazas,numeroPuertas*)>
 
 <!ELEMENT codigoCoche (#PCDATA)>
 
