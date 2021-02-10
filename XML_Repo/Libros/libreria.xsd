@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<xs:schema xmlns:xs="http:/www.w3.org/2001/XMLSchema"
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
      version="0.1" xml:lang="es">
-    <xs:element name= "listalibros">
+    <xs:element name= "listaLibros">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="libros" maxOccurs = "unbounded">
@@ -23,13 +23,9 @@
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="titulo" type= "xs:string"/>
-                            </xs:element>
                             <xs:element name="editorial" type= "xs:string"/>
-                            </xs:element>
                             <xs:element name="fecPublicacion" type= "xs:string"/>
-                            </xs:element>
                             <xs:element name="ISBN" type= "xs:string"/>
-                            </xs:element>
                         </xs:sequence>
                     </xs:complexType>    
                 </xs:element>
