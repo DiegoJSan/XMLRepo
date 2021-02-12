@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="clientes.xsd">
-    <sede codigoSede= "A1234567">
+    <sede codigoTipo="A1234567">
         <direccion>Sevilla</direccion>
         <direccion>Sevilla</direccion>
         <empleado>Francisco</empleado>
-        <fecha>22/11/2020</fecha>
+        <fecha>2020-11-20</fecha>
         <descripcion>Solvente</descripcion>
-        <cliente codigoCliente= "ABC-123">
-            <numeroVivienda>1</numeroVivienda>
+        <cliente codigo="ABC-123">
+            <numero>1</numero>
             <coste>132674.64</coste>
             <resumen>Casa Adosada</resumen>
             <plazo>25</plazo>

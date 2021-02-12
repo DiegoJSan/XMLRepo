@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-     version="0.1" xml:lang="es">
-    <xs:element name= "listaLibros">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="listaLibros">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="libros" maxOccurs = "unbounded">
+                <xs:element name="libros" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="autores">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="autor" maxOccurs = "unbounded">
+                                        <xs:element name="autor" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="nombre" type= "xs:string"/>
-                                                    <xs:element name="apellido1" type= "xs:string"/>
-                                                    <xs:element name="apellido2" type= "xs:string"/>
+                                                    <xs:element name="nombre" type="xs:string" />
+                                                    <xs:element name="apellido1" type="xs:string" />
+                                                    <xs:element name="apellido2" type="xs:string" />
                                                 </xs:sequence>
-                                            </xs:complexType>                                        
+                                            </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="titulo" type= "xs:string"/>
-                            <xs:element name="editorial" type= "xs:string"/>
-                            <xs:element name="fecPublicacion" type= "xs:string"/>
-                            <xs:element name="ISBN" type= "xs:string"/>
+                            <xs:element name="titulo" type="xs:string" />
+                            <xs:element name="editorial" type="xs:string" />
+                            <xs:element name="fecPublicacion" type="xs:string" />
+                            <xs:element name="ISBN" type="xs:string" />
                         </xs:sequence>
-                    </xs:complexType>    
+                    </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>

@@ -1,15 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <!ELEMENT edicionesAranda (cabecera, tabla)>
 <!ELEMENT cabecera (titulo, contenido,descripcion,fecha)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT contenido (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT fecha (#PCDATA)>
-<!ELEMENT tabla (region, triMestre, libros_vendidos)>
+<!ELEMENT tabla (region*, triMestre, libros_vendidos)>
 <!ELEMENT region (norte | centro | sur)>
-<!ELEMENT norte (#PCDATA | trimestre | librosVendidos*)>
-<!ELEMENT centro (#PCDATA | trimestre | librosVendidos*)
-<!ELEMENT sur (#PCDATA | trimestre | librosVendidos*)>
+<!ELEMENT norte (#PCDATA | trimestre | librosVendidos)*>
+<!ELEMENT centro (#PCDATA | trimestre | librosVendidos)*>
+<!ELEMENT sur (#PCDATA | trimestre | librosVendidos)*>
 <!ELEMENT trimestre (#PCDATA)>
+<!ELEMENT libros_vendidos (#PCDATA)>
 <!ELEMENT librosVendidos (#PCDATA)>
 <!ELEMENT triMestre (#PCDATA)>
-<!ELEMENT libros_vendidos (#PCDATA)>

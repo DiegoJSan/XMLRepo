@@ -1,5 +1,5 @@
-<?xml version= "1.0" encoding= "UTF-8"?>
-<xs:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:annotation>
         <xs:documentation xml:lang= "ES-es">
         Esquema para el alta del clientes en sede central
@@ -18,8 +18,8 @@
             <xs:element name= "direccion" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
             <xs:element name= "empleado" type="xs:string"/>
             <xs:element name= "fecha" type= "xs:date"/>
-            <xs:element name= "descripcion" type= "string" minOccurs="0" />
-            <xs:element name= "cliente" type= "clienteDatos" minOccurs="1" maxOccurs="unbouded"/>
+            <xs:element name= "descripcion" type= "xs:string" minOccurs="0" />
+            <xs:element name= "cliente" type= "clienteDatos" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
         <xs:attribute name= "codigoTipo" use= "required"/>
     </xs:complexType>
